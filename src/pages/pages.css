@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainSection2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.leftSection {
+  width: 40%;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  background-color: #6601eb;
+  color: #ffff;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 80%;
+  margin: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 300px 50px #8080803e;
+}
+
+.rightSection {
+  width: 50%;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+fieldset input {
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  width: 90%;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.btn1 {
+  background-color: blueviolet;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 12px 15px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.btn1:hover {
+  background-color: rgb(154, 66, 236);
+}
+
+.link {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1rem;
+  margin-top: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px #8080803e;
+}
+.error2 {
+  font-size: 1.1rem;
+  color: red;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .leftSection {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .leftSection {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .mainSection2 {
+    flex-direction: column;
+  }
+
+  .leftSection {
+    font-size: 1rem;
+    width: 100%;
+    height: 100px;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 0%;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+.verifyDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem;
+  color: #6601eb;
+}
+
+.p {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #2c065e;
+}
+
+.p:hover {
+  text-decoration: underline;
+  color: #7535c9;
+}
