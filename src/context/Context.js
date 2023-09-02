@@ -14,11 +14,11 @@ let data = {
   baseUrl:
     window.location.href.split(":")[0] === "http"
       ? "http://localhost:5001/api/v1"
-      : "https://mern-sysborg.vercel.app/api/v1",
+      : "https://1f7c-202-47-52-217.ngrok-free.app/api/v1",
 
   baseUrlSocketIo: window.location.href.includes("localhost")
     ? `http://localhost:5001`
-    : `mern-sysborg.vercel.app`,
+    : `https://1f7c-202-47-52-217.ngrok-free.app/api/v1`,
 };
 
 export default function ContextProvider({ children }) {
